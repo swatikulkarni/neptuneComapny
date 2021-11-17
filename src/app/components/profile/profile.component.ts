@@ -53,7 +53,7 @@ export class ProfileComponent implements OnInit {
       // }
       localStorage.setItem('formData',JSON.stringify(this.registerForm.value));
       // display form values on success
-      console.log('SUCCESS!! :-)\n\n' + JSON.stringify(this.registerForm.value));
+      alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.registerForm.value));
   }
 
   onReset() {
